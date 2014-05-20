@@ -1,0 +1,50 @@
+body {
+	background: url('http://farm3.staticflickr.com/2832/12303719364_c25cecdc28_b.jpg') fixed;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#header {
+	height: 48px;
+	text-align: center;
+	line-height: 40px;
+}
+
+h1 {
+	vertical-align: middle;
+	color: white;
+	font-weight: bold;
+}
+
+.row {
+	margin: 10px 20px;
+	color: white;
+}
+
+#results {
+	margin: 30px 20px 10px 0px;
+}
+
+.person-row {
+	margin: 10px 10px;
+	padding: 10px;
+	color: white;
+	width: 100%;
+	float: left;
+
+}
+
+.personal-row img {
+	float: left;
+	margin-right: 20px;
+}
+
+.personal-info {
+	float: left;
+}
+
+.person-row > button {
+	float: left;
+}
